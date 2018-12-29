@@ -1,6 +1,38 @@
 # Analysis of Houston Parking Citations
 
 
+
+
+### Enviroment
+- Windows Linux Subsystem
+- anaconda distribution
+
+## Running repo
+
+1. clone repo & cd to project folder
+
+```shell
+git clone https://github.com/franksalas/parking_citation_analysis.git
+
+
+cd parking_citation_analysis
+```
+
+2. create enviroment from yml file
+
+```shell
+conda env create -f environment.yml
+```
+
+3. activate enviroment
+
+```shell
+source activate parking
+```
+4. get to work
+
+## Metadata
+
 | Column                    | Description                                                                                                                                                                                                                                                                                                                           |
 |---------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | CON_UID                   | System generated unique identifier for the parking citation                                                                                                                                                                                                                                                                           |
